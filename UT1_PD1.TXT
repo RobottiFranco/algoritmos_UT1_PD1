@@ -1,0 +1,28 @@
+EJERCICIO 1
+
+SALIDA:
+No, yo pac.\n
+Vos zacata pac.\n
+Yo pac.
+
+EJERCICIO 2
+
+A- la primera sentencia que se ejecuta es el else de sipo: System.out.println ("ik");
+
+B-
+    1- ik
+    2- traqueteo
+    3- ping sup
+    4- muaa-ja-ja-ja
+
+EJERCICIO 4
+
+a- El error en la clase Alumno es que el método getNombreAdmiracion() intenta concatenar una cadena con null, lo que generará un error de puntero nulo (NullPointerException). Puedes detectar este tipo de error revisando el código para ver si hay operaciones que puedan involucrar valores nulos.
+
+b- El error en el método recorrer es que el bucle for va desde 1 hasta cadena.length(), pero debería ir desde 0 hasta cadena.length() - 1. Este error provocará una excepción de índice fuera de rango. Se detecta al notar que el último índice es igual a la longitud de la cadena menos uno.
+
+c- El error en el método getValor es que intenta acceder a un índice que está fuera del rango del vector. El índice 8 está más allá del tamaño del vector, que tiene solo 8 elementos (índices de 0 a 7).
+
+d- El error al ejecutar el método getPrimerCaracter es que intenta acceder al primer carácter de una cadena almacenada en un array de cadenas vacío, lo que provocará una excepción de índice fuera de rango (ArrayIndexOutOfBoundsException) debido a que el array no contiene ninguna cadena.
+
+e- El error en el método paraAString es que intenta convertir un objeto Integer en un String, pero la conversión se realiza de manera incorrecta. Se detecta al notar la conversión incorrecta.
